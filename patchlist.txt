@@ -2396,8 +2396,10 @@
 0:0x536058 t2_mov(1, 11, fb_w)
 0:0x53605C t2_mov(1, 10, fb_h)
 
-# Secret of Mana [JP 1.03]
-[PCSE01153,eboot.bin]
+# Secret of Mana
+[PCSE01153, eboot.bin] # [JP 1.03]
+[PCSE01153, eboot.bin, 0xAB604656] # [US 1.03]
+[PCSB01163, eboot.bin, 0xB02F2998] # [EU 1.03]
 @FB
 0:0x3BB5F2 t2_mov(1,0,<fb_w>)
 0:0x3BB5FA t2_mov(1,1,<fb_h>)
