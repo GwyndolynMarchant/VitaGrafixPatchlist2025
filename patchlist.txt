@@ -2308,3 +2308,10 @@
 @FPS
 0:0x2AA804 t1_mov(4, vblank - 1) . 002C 04DD r
 0:0x2AA80E 013C 002C FADC r . (nop *3)
+
+# Call of Duty Black Ops: Declassified
+[PCSB00232, eboot.bin, 0xE0AD372D] # [EU (RUS) 1.02]
+[PCSB00213, eboot.bin, 0x8693292A] # [EU (ENG) 1.02]
+[PCSE00097, eboot.bin, 0xD0FBF690] # [US 1.02]
+@FPS
+0:0x176F8A t1_mov(0, vblank)
