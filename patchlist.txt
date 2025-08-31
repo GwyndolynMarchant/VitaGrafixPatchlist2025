@@ -2331,3 +2331,8 @@
 [PCSE00097, eboot.bin, 0xD0FBF690] # [US 1.02]
 @FPS
 0:0x176F8A t1_mov(0, vblank)
+
+# Samurai Warriors 4
+[PCSE00503, eboot.bin]
+@FPS
+0:0x2E1152 t1_mov(0, vblank)
