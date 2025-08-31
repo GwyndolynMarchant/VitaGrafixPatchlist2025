@@ -2310,21 +2310,20 @@
 0:0x2AA80E 013C 002C FADC r . (nop *3)
 
 # Sword Art Online Hollow Fragment [ASIA 1.04]
-[PCSH00070,eboot.bin,0x7555E7C0]
+[PCSH00070, eboot.bin, 0x7555E7C0]
 @FPS
-0:0x03BBF2 t1_mov(0,<vblank>)
+0:0x03BBF2 t1_mov(0, vblank)
 
 # Sword Art Online Hollow Fragment [JP 1.07]
-[PCSG00294,eboot.bin,0xE7F6BFF4]
+[PCSG00294, eboot.bin, 0xE7F6BFF4]
 @FPS
-0:0x03A048 t1_mov(0,<vblank>)
+0:0x03A048 t1_mov(0, vblank)
 
-# Sword Art Online Hollow Fragment [US 1.02]
-[PCSE00465,eboot.bin,0x6595A5D6]
-# Sword Art Online Hollow Fragment [EU 1.02]
-[PCSB00618,eboot.bin,0x89D98FF6]
+# Sword Art Online Hollow Fragment
+[PCSE00465, eboot.bin, 0x6595A5D6] # [US 1.02]
+[PCSB00618, eboot.bin, 0x89D98FF6] # [EU 1.02]
 @FPS
-0:0x03BBE2 t1_mov(0,<vblank>)
+0:0x03BBE2 t1_mov(0, vblank)
 
 # Call of Duty Black Ops: Declassified
 [PCSB00232, eboot.bin, 0xE0AD372D] # [EU (RUS) 1.02]
