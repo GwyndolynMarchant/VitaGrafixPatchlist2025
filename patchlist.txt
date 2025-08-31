@@ -2349,6 +2349,25 @@
 @FPS
 0:0x03BBE2 t1_mov(0, vblank)
 
+# Sword Art Online: Hollow Realization
+[PCSB00972, eboot.bin, 0x581EFC92] # [EU 3.20]
+[PCSE00903, eboot.bin, 0x4DC6A613] # [US 3.20]
+@IB
+0:0x1AB8 t2_mov(0, 4, ib_w)
+0:0x1AC0 t2_mov(0, 1, ib_h)
+
+# Sword Art Online: Hollow Realization [JP 3.22]
+[PCSG00868, eboot.bin, 0x973272ED]
+@IB
+0:0x1A68 t2_mov(0, 4, ib_w)
+0:0x1A70 t2_mov(0, 1, ib_h)
+
+# Sword Art Online: Hollow Realization [ASIA 3.20]
+[PCSH00266, eboot.bin, 0x29655783]
+@IB
+0:0x1A78 t2_mov(0, 4, ib_w)
+0:0x1A80 t2_mov(0, 1, ib_h)
+
 # Call of Duty Black Ops: Declassified
 [PCSB00232, eboot.bin, 0xE0AD372D] # [EU (RUS) 1.02]
 [PCSB00213, eboot.bin, 0x8693292A] # [EU (ENG) 1.02]
